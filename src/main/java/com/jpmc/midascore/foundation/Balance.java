@@ -13,6 +13,9 @@ public class Balance {
         this.amount = amount;
     }
 
+    public Balance(Long userId) {
+    }
+
     public float getAmount() {
         return amount;
     }

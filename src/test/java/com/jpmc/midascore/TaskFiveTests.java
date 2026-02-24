@@ -45,6 +45,7 @@ public class TaskFiveTests {
         for (int i = 0; i < 13; i++) {
             Balance balance = balanceQuerier.query((long) i);
             output.append(balance.toString()).append("\n");
+
         }
         output.append("---end output ---");
         logger.info(output.toString());
